@@ -1,40 +1,6 @@
-/* General body styles */
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background: linear-gradient(to right, red, orange, yellow, green, blue, purple);
-    color: white;
-    margin: 0;
-    padding: 0;
-    background-color: aqua;
-}
-
-/* Header styles */
-h1 {
-    font-size: 3rem;
-    margin-top: 20px;
-    color : red;
-}
-
-/* Paragraph styles */
-p {
-    font-size: 1.5rem;
-    margin: 10px 0;
-}
-
-/* Anchor link styles */
-a {
-    color: #FFD700;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* Rainbow animation */
 .rainbow {
+    font-size: 3rem;
+    text-align: center;
     font-weight: bold;
     animation: rainbow 3s infinite;
 }
@@ -47,26 +13,4 @@ a:hover {
     66% { color: blue; }
     83% { color: indigo; }
     100% { color: violet; }
-}
-
-/* Button styles */
-button {
-    padding: 10px 20px;
-    font-size: 1.2rem;
-    background: #FF69B4;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 20px;
-}
-
-button:hover {
-    background: #FF1493;
-}
-
-/* Footer styles */
-footer {
-    margin-top: 20px;
-    font-size: 1rem;
 }
