@@ -14,3 +14,7 @@
     83% { color: indigo; }
     100% { color: violet; }
 }
+
+body {
+    background-color: aqua;
+}
