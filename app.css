@@ -20,9 +20,9 @@ body {
 }
 
 img {
+    width: 500px; /* Set the size explicitly */
+    max-width: 100%; /* Ensures it doesn't overflow on smaller screens */
+    height: auto; /* Maintains the aspect ratio */
     display: block;
     margin: 20px auto;
-    max-width: 80%; /* Adjust the size */
-    border-radius: 10px; /* Add rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
